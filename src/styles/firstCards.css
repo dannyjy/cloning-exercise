@@ -1,0 +1,98 @@
+.first{
+    padding: 2rem;
+
+    .first-card{
+        color: #fff;
+        padding: 1rem;
+        display: flex;
+        border-radius: 1rem;
+        align-items: center;
+        background: #010131;
+        justify-content: space-between;
+
+        .first-card-content{
+            gap: 1rem;
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+
+            .icon-container{
+                width: 45px;
+                height: 45px;
+                display: flex;
+                border-radius: 50%;
+                align-items: center;
+                justify-content: center;
+                background-color: #00b5fd;
+            }
+        }
+
+        .register-btn{
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 1rem;
+            padding: .5rem 1rem;
+            background-color: #0059fd;
+        }
+    }
+}
+
+.second-card-container{
+    gap: 1rem;
+    padding: 1.5rem 0rem;
+    display: flex;
+
+    .second-card{
+        display: grid;
+        overflow: hidden;
+        align-items: center;
+        border-radius: 1rem;
+        border: 1px solid gray;
+        grid-template-columns: 1fr 1fr;
+
+        .second-card-content{
+            color: #fff;
+            font-weight: 500;
+            padding: 3rem 1rem;
+            background-color: #0a0063;
+
+            button{
+                gap: .5rem;
+                display: flex;
+                border: none;
+                color: #fff;
+                cursor: pointer;
+                background: none;
+                align-items: center;
+                border-radius: 1rem;
+                justify-content: center;
+            }
+        }
+
+        .img-holder{
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}
+
+.images-container{
+    gap: 1rem;
+    display: flex;
+
+    .image-card{
+        width: 100%;
+        color: #fff;
+        height: 320px;
+        display: flex;
+        overflow: hidden;
+        padding: 1rem;
+        align-items: end;
+        border-radius: 1rem;
+        background-size: cover;
+        background-position: center;
+    }
+}

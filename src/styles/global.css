@@ -4,3 +4,13 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+.icon-img{
+    width: 30px;
+    height: 30px;
+}
+
+.main-container{
+    margin: auto;
+    max-width: 1440px;
+}
