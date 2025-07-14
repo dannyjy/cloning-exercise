@@ -3,9 +3,8 @@ nav{
     top: 0;
     
     .nav-container{
-
-        padding: 5px 24px;
         display: flex;
+        padding: 12px 24px;
         background: #fff;
         align-items: center;
         justify-content: space-around;
@@ -16,9 +15,9 @@ nav{
         }
         
         .nav-links {
+            gap: 1rem;
             display: flex;
             align-items: center;
-            gap: 20px;
             
             .nav-btn{
                 gap: 1rem;
