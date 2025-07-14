@@ -1,0 +1,56 @@
+.container{
+    gap: 1rem;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    padding: 0rem 2rem;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url('../images/statue.jpeg');
+
+    .input-container{
+        gap: 1rem;
+        display: flex;
+        padding: 20px;
+        flex-wrap: wrap;
+        background: #fff;
+        border-radius: 1rem;
+        
+        .input-bar{
+            cursor: pointer;
+            border: 1px solid gray;
+            display: flex;
+            border-radius: 1rem;
+            padding: .8rem 1rem;
+            align-items: center;
+            
+            img{
+                width: 25px;
+                height: 25px;
+            }
+            input{
+                border: none;
+                outline: none;
+                width: 100%;
+                font-size: 1.2rem;
+                color: #000;
+                input::placeholder{
+                    color: #3a3a3a;
+                }
+                cursor: pointer;
+            }
+        }
+        
+        .seek-btn{
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 1rem;
+            padding: .8rem 1.5rem;
+            background: #0000ff;
+        }
+    }
+}
