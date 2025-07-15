@@ -1,0 +1,41 @@
+.weekend-trips-cards{
+    padding: 0rem 1rem;
+
+    .weekend-trips-title{
+        padding-bottom: 1.5rem;
+    }
+
+    .cards-main-container{
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+        .trips-card{
+            .card-image{
+                aspect-ratio: 4/3;
+                border-radius: 1rem;
+                background-size: cover;
+                background-position: center;
+                background-image: url('../images/trip1.jpeg');
+            }
+            .card-details{
+                gap: .5rem;
+                display: flex;
+                padding: 1rem 0rem;
+                flex-direction: column;
+
+                .card-price{
+                    gap: .5rem;
+                    display: flex;
+                    
+                    h5{
+                        color: #fff;
+                        padding: .2rem;
+                        border-radius: .3rem;
+                        background: green;
+                    }
+                }
+            }
+        }
+    }
+}
